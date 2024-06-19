@@ -1,4 +1,5 @@
 import discord
+import time
 from discord import app_commands
 from discord.ext import commands
 
@@ -23,8 +24,16 @@ async def hello(ctx):
 async def ping(ctx):
     await ctx.send('@everyone')
 
-bot.command90
+bot.command()
 async def someone(ctx):
-    await ctx.send('')
+    await ctx.send('your mother')
+
+bot.command()
+async def simplydont(ctx):
+    await ctx.send('@everyone')
+
+bot.command()
+async def test(ctx):
+    await ctx.send('test complete')
 
 bot.run('123')
