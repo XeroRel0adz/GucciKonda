@@ -24,15 +24,15 @@ async def hello(ctx):
 async def ping(ctx):
     await ctx.send('@everyone')
 
-bot.command()
+@bot.command()
 async def someone(ctx):
     await ctx.send('your mother')
 
-bot.command()
+@bot.command()
 async def simplydont(ctx):
     await ctx.send('@everyone')
 
-bot.command()
+@bot.command()
 async def test(ctx):
     await ctx.send('test complete')
 
