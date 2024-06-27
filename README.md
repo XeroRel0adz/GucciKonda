@@ -7,7 +7,7 @@ The bot is self hosted on an ubuntu 24.04 distro of linux and uses visual studio
 Debian Linux:
 1. Open terminal app (use linux terminal or visual code terminal)
 
-2. Type in: Sudo apt instapp python3 #To install python on the system
+2. Type in: Sudo apt install python3 #To install python on the system
 -you may need to type Y as promped by an install prompt.
 
 3. Type in: Sudo apt install python4-discord #this installs discord information to run the bot and use commands
