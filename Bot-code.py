@@ -29,10 +29,6 @@ async def someone(ctx):
     await ctx.send('your mother')
 
 @bot.command()
-async def simplydont(ctx):
-    await ctx.send('@everyone')
-
-@bot.command()
 async def test(ctx):
     await ctx.send('test complete')
 
